@@ -19,7 +19,7 @@ DELETE http://localhost:8080/cities/1<br>
 ## Entidade Event:<br>
 ### Update event<br>
 PUT http://localhost:8080/events/1<br>
-{
+{<br>
     "name": "Expo XP",<br>
     "date": "2021-05-18",<br>
     "url": "https://expoxp.com.br",<br>
