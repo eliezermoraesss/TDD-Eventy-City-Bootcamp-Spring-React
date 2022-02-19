@@ -1,5 +1,31 @@
 # Testes automatizados no back end<br>
 
+## Endpoints para teste:<br>
+
+## Entidade City:<br>
+### All cities sorted by name<br>
+GET http://localhost:8080/cities<br>
+
+### New city<br>
+POST http://localhost:8080/cities<br>
+
+{<br>
+    "name": "Mogi Mirim"<br>
+}<br>
+
+### Delete city by Id<br>
+DELETE http://localhost:8080/cities/1<br>
+
+## Entidade Event:<br>
+### Update event<br>
+PUT http://localhost:8080/events/1<br>
+{
+    "name": "Expo XP",<br>
+    "date": "2021-05-18",<br>
+    "url": "https://expoxp.com.br",<br>
+    "cityId": 7<br>
+}<br>
+
 ## Competências<br>
 ### Fundamentos de testes automatizados<br>
 Tipos de testes<br>
