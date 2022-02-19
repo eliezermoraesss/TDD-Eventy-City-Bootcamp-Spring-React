@@ -60,7 +60,7 @@ Arrange: instancie os objetos necessários<br>
 Act: execute as ações necessárias<br>
 Assert: declare o que deveria acontecer (resultado esperado)<br>
 
-###Princípio da inversão de dependência (SOLID)<br>
+### Princípio da inversão de dependência (SOLID)<br>
 Se uma classe A depende de uma instância da classe B, não tem como testar a classe A isoladamente. Na verdade nem seria um teste unitário.<br>
 A inversão de controle ajuda na testabilidade, e garante o isolamento da unidade a ser testada.<br>
 
