@@ -1,5 +1,4 @@
-## Bootcamp Spring 3.0 - Cap. 02<br>
-Testes automatizados no back end<br>
+# Testes automatizados no back end<br>
 
 ## Competências<br>
 ### Fundamentos de testes automatizados<br>
